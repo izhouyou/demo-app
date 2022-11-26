@@ -18,6 +18,10 @@ export default [
       { component: './404' },
     ],
   },
+  { path: '/new', name: '新页面', icon: 'home', routes: [
+      { path: '/new/page', name: '新页面2', icon: 'home', component: './NewPage' },
+    ]
+  },
   { name: '查询表格', icon: 'table', path: '/list', component: './TableList' },
   { path: '/', redirect: '/welcome' },
   { component: './404' },
